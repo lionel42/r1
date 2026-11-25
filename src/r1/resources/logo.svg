@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- R1 logo: an apple with a crown -->
+  <path d="M32 24 C22 15 5 19 7 37 C9 53 21 62 32 57 C43 62 55 53 57 37 C59 19 42 15 32 24 Z"
+        fill="#d7262b" stroke="#7a1015" stroke-width="2" stroke-linejoin="round"/>
+  <ellipse cx="19" cy="34" rx="4" ry="7" transform="rotate(20 19 34)" fill="#ffffff" opacity="0.45"/>
+  <path d="M19 22 L16 6 L25 13 L32 3 L39 13 L48 6 L45 22 Z"
+        fill="#f5b301" stroke="#8a5a00" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="16" cy="6" r="2.2" fill="#f5b301" stroke="#8a5a00" stroke-width="1.2"/>
+  <circle cx="32" cy="3.5" r="2.2" fill="#f5b301" stroke="#8a5a00" stroke-width="1.2"/>
+  <circle cx="48" cy="6" r="2.2" fill="#f5b301" stroke="#8a5a00" stroke-width="1.2"/>
+</svg>

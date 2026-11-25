@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "r1"
+version = "0.1.0"
+description = "Propagation of calibration scales from reference tanks (Python port of the GCwerks R1 programs)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "gcwerks",
+    "numpy",
+    "pandas>=2.1",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib"]
+gui = ["matplotlib", "PySide6"]
+test = ["pytest"]
+
+[project.scripts]
+r1 = "r1.cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+r1 = ["resources/*.svg"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

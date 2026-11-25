@@ -1,0 +1,9 @@
+.env/
+tests/data/medusa/calc/
+tests/data/medusa/plot/
+tests/data/medusa/results/
+tests/data/medusa/drift/standards.drift
+
+build/
+__pycache__/
+*.egg-info
